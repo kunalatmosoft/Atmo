@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Leslie Alexander",
+      "email": "leslie.alexander@example.com",
+      "role": "Co-Founder / CEO",
+      "imageUrl": "https://th.bing.com/th/id/OIP.BkaRRqaRQsmWgM_fkPb9JwHaHa?rs=1&pid=ImgDetMain",
+      "lastSeen": "3h ago",
+      "lastSeenDateTime": "2023-01-23T13:23Z"
+    },
+    {
+      "id": 2,
+      "name": "Alexander",
+      "email": "alexander@example.com",
+      "role": "Co-Founder / CEO",
+      "imageUrl": "https://th.bing.com/th/id/OIP.BkaRRqaRQsmWgM_fkPb9JwHaHa?rs=1&pid=ImgDetMain",
+      "lastSeen": "18h ago",
+      "lastSeenDateTime": "2023-01-23T13:23Z"
+    },
+    {
+      "id": 3,
+      "name": "the Alexander",
+      "email": "the.alexander@example.com",
+      "role": "Co-Founder / CEO",
+      "imageUrl": "https://th.bing.com/th/id/OIP.BkaRRqaRQsmWgM_fkPb9JwHaHa?rs=1&pid=ImgDetMain",
+      "lastSeen": null
+    },
+    {
+      "id": 4,
+      "name": "Alexa",
+      "email": "alexa@example.com",
+      "role": "Co-Founder / CEO",
+      "imageUrl": "https://th.bing.com/th/id/OIP.BkaRRqaRQsmWgM_fkPb9JwHaHa?rs=1&pid=ImgDetMain",
+      "lastSeen": null
+    }
+  ]
+}
