@@ -19,7 +19,7 @@ const YourComponent = () => {
                 <p className="text-sm font-semibold leading-6 text-gray-900">{users.name}</p>
                 <p className="mt-1 truncate text-xs leading-5 text-gray-500">{users.email}</p>
                 
-            <Link className="text font-lightbold text-2xl cursor-pointer" href={`/Detail/${users.name}`}>Atmosoft</Link>
+            <Link className="text font-lightbold text-2xl cursor-pointer" href={`./Detail/${users.name}`}>Atmosoft</Link>
           
               </div>
             </div>
@@ -51,13 +51,13 @@ const YourComponent = () => {
         <h1>Detais of product</h1>
         <ul>
           <li>
-            <Link className="text font-lightbold text-2xl cursor-pointer" href='/Detail/Atmosoft'>Atmosoft</Link>
+            <Link className="text font-lightbold text-2xl cursor-pointer" href={'./Detail/Atmosoft'}>Atmosoft</Link>
           </li>
           <li>
-            <Link className="text font-lightbold text-2xl cursor-pointer" href='/Detail/AtHob'>AtHob</Link>
+            <Link className="text font-lightbold text-2xl cursor-pointer" href={'./Detail/AtHob'}>AtHob</Link>
           </li>
           <li>
-            <Link className="text font-lightbold text-2xl cursor-pointer" href='/Detail/AtMart'>AtMart</Link>
+            <Link className="text font-lightbold text-2xl cursor-pointer" href={'./Detail/AtMart'}>AtMart</Link>
           </li>
         </ul>
       </div>

@@ -39,13 +39,13 @@ const Header = () => {
     <div className="bg-gradient-to-b from-orange-100 to-orange-200 h-20 w-full border-b-2 flex items-center justify-between p-2">
       <ul className="flex">
         <li className="text font-semibold text-2xl p-2 cursor-pointer">
-          <Link href="/">Home</Link>
+          <Link href={'./'}>Home</Link>
         </li>
 
 
         {!user ? null : (
           <><li className="text font-lightbold text-2xl p-2 cursor-pointer">
-            <Link href="/profile">Profile</Link>
+            <Link href={'./profile'}>Profile</Link>
           </li><li className="text font-lightbold text-2xl p-2 cursor-pointer">
 
               <Link href={'./About'}>About</Link>   </li>
